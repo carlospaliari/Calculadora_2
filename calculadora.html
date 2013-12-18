@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<div class="container">
+<div  class="container">
     <div class="row">
         <div class="col-md-12 text-center">
                 <h1>Calculadora</h1>
@@ -26,7 +26,7 @@
             <form class="pull-left form-inline" role="form">
                 <div class="form-group">
                     <label class="sr-only" for="exampleInputText2"></label>
-                    <input type="text" class="form-control" id="exampleInputText2" placeholder="Resúltado">
+                    <input  type="text" class="form-control" id="exampleInputText2" placeholder="Resúltado">
                 </div>
             </form>
         </div>
@@ -37,81 +37,104 @@
         <div class="col-md-offset-5">
             <div class="btn-group" data-toggle="buttons">
                 <label class="btn btn-default">
-                    <input type="radio" name="options" id="option7"> 7
-                </label>
-                <label class="btn btn-default">
-                    <input type="radio" name="options" id="option8"> 8
-                </label>
-                <label class="btn btn-default">
-                    <input type="radio" name="options" id="option9"> 9
-                </label>
-                <label class="btn btn-default">
-                    <input type="radio" name="options" id="option÷"> ÷
+                    <input value="7" type="radio" name="options" id="option7"> 7
                 </label>
 
-                <button class="btn btn-default">
+                <label class="btn btn-default">
+                    <input value="8" type="radio" name="options" id="option8"> 8
+                </label>
+
+                <label class="btn btn-default">
+                    <input value="9" type="radio" name="options" id="option9"> 9
+                </label>
+
+                <label class="btn btn-default">
+                    <input value="/" type="radio" name="options" id="option÷"> ÷
+                </label>
+
+
+                <button value="" class="btn btn-default">
                     <i class="icon-white icon-share-alt icon-flip-horizontal"></i>
                 </button>
-                <button type="button" class="btn btn-default">
+
+                <button value="(" type="button" class="btn btn-default">
                     <b>(</b>
                 </button>
 
+
                 <br><br>
                 <label class="btn btn-default">
-                    <input type="radio" name="options" id="option4"> 4
-                </label>
-                <label class="btn btn-default">
-                    <input type="radio" name="options" id="option5"> 5
-                </label>
-                <label class="btn btn-default">
-                    <input type="radio" name="options" id="option6"> 6
-                </label>
-                <label class="btn btn-default">
-                    <input type="radio" name="options" id="options"> X
+                    <input value="4" type="radio" name="options" id="option4"> 4
                 </label>
 
-                <button class="btn btn-default"><i class="icon-remove-sign"></i></button>
-                <button type="button" class="btn btn-default">
+                <label class="btn btn-default">
+                    <input value="5" type="radio" name="options" id="option5"> 5
+                </label>
+
+                <label class="btn btn-default">
+                    <input value="6" type="radio" name="options" id="option6"> 6
+                </label>
+
+                <label class="btn btn-default">
+                    <input value="*" type="radio" name="options" id="options"> X
+                </label>
+
+
+                <button value="" class="btn btn-default"><i class="icon-remove-sign"></i></button>
+
+                <button value=")" type="button" class="btn btn-default">
                     <b>)</b>
                 </button>
 
+
                 <br><br>
                 <label class="btn btn-default">
-                    <input type="radio" name="options" id="option1"> 1
-                </label>
-                <label class="btn btn-default">
-                    <input type="radio" name="options" id="option2"> 2
-                </label>
-                <label class="btn btn-default">
-                    <input type="radio" name="options" id="option3"> 3
-                </label>
-                <label class="btn btn-default">
-                    <input type="radio" name="options" id="option-"> -
+                    <input value="1" type="radio" name="options" id="option1"> 1
                 </label>
 
-                <button type="button" class="btn btn-default"><b>X² </b></button>
-                <button type="button" class="btn btn-default">
+                <label class="btn btn-default">
+                    <input value="2" type="radio" name="options" id="option2"> 2
+                </label>
+
+                <label class="btn btn-default">
+                    <input value="3" type="radio" name="options" id="option3"> 3
+                </label>
+
+                <label class="btn btn-default">
+                    <input value="-" type="radio" name="options" id="option-"> -
+                </label>
+
+
+                <button value="n1*n1" type="button" class="btn btn-default"><b>X²</b></button>
+
+                <button value="" type="button" class="btn btn-default">
                     <b>√</b>
                 </button>
 
+
                 <br><br>
                 <label class="btn btn-default">
-                    <input type="radio" name="options" id="option0"> 0
+                    <input value="0" type="radio" name="options" id="option0"> 0
                 </label>
+
                 <label class="btn btn-default">
-                    <input type="radio" name="options" id="option,"> ,
+                    <input value="." type="radio" name="options" id="option,"> ,
                 </label>
+
                 <label class="btn btn-default">
-                    <input type="radio" name="options" id="option%"> %
+                    <input value="/100" type="radio" name="options" id="option%"> %
                 </label>
+
                 <label class="btn btn-default">
-                    <input type="radio" name="options" id="option+"> +
+                    <input value="+" type="radio" name="options" id="option+"> +
                 </label>
-                <button type="button" class="btn btn-primary">Igualar</button>
+
+
+                <button value="=" type="button" class="btn btn-primary">Igualar</button>
                 <br><br>
 
                 <div>
-                    <button type="button" class="btn btn-success btn-block">Calcular</button>
+                    <button value="calculos" type="button" class="btn btn-success btn-block">Calcular</button>
                 </div>
             </div>
         </div>
